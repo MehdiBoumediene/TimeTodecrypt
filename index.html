@@ -1,12 +1,2005 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Document</title>
-	</head>
-	<body>
-		test
-	</body>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>TimeTodecrypt'</title>
+  <meta content="" name="description">
+
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+
+      <!-- Template Main CSS File -->
+      <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- FONTS -->
+    <link rel='stylesheet' id='Roboto-css' href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700'>
+    <link rel='stylesheet' id='Patua+One-css' href='http://fonts.googleapis.com/css?family=Patua+One:100,300,400,400italic,700'>
+    <link rel="stylesheet" type="text/css" href="plugins/rs-plugin/fonts/font-awesome/css/font-awesome.min.css">
+
+  
+
+    <!-- Revolution Slider -->
+    <link rel="stylesheet" type="text/css" href="plugins/rs-plugin/css/settings.css">
+    <link rel="stylesheet" type="text/css" href="plugins/rs-plugin/css/layers.css">
+    <link rel="stylesheet" type="text/css" href="plugins/rs-plugin/css/navigation.css">
+
+
+
+  <script src="https://kit.fontawesome.com/ac9435fcde.js" crossorigin="anonymous"></script>
+<style>
+
+table tr,td{
+  border: none;
+ 
+  background: #f9f9f9;
+}
+td.titre{
+  background: #004AAD;
+  color: white;
+}
+td.right{
+  text-align: right;
+  color: #004AAD !important;
+  border-bottom: solid 1px #004AAD 
+}
+
+
+
+.swiper-slide-duplicate{
+  display: none;
+}
+.time {
+  width: 230px !important;
+
+}
+.ifde {
+  width: 180px !important;
+
+}
+.adan {
+  width: 190px !important;
+    margin-top: 60px;
+
+}
+.cryptonews {
+  width: 250px !important;
+    margin-top: -20px;
+
+}
+.block-titre h2 {
+
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.fc{
+
+  width: 156px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.XDEFI{
+  width: 300px;
+  margin-top: -10px;
+}
+.COINACADEMY{
+  width: 240px;
+  margin-left: 35px;
+    margin-top: 36px;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .time {
+  width: 150px !important;
+
+}
+.ifde {
+  width: 150px !important;
+
+}
+p.intervenants{
+  line-height:20px !important;
+  padding-bottom: 20px !important;
+}
+.bg-white p {
+    padding-left: 4%;
+    margin-bottom: 0;
+}
+.block-titre h2 {
+  margin-left: 4%;
+}
+.aos-animate{
+  padding-left: 13px !important;
+}
+.header .logo img {
+  max-height: 58px !important;
+  margin-left: -35px;
+}
+.reseaux {
+    display: flex !important;
+}
+.navbar {
+    left: 0 !important;
+}
+.navbar-mobile {
+
+    background: rgb(1 22 61) !important;
+ 
+}
+.mobile-nav-toggle.bi-x {
+    position: relative;
+    color: #fff;
+}
+.navbar-mobile ul {
+
+    height: 280px !important;
+}
+
+.time {
+  width: 230px !important;
+  margin-left: 0;
+
+}
+.ifde {
+  width: 230px !important;
+  
+  margin-left: 0;
+
+
+}
+.adan {
+  width: 250px !important;
+    margin-top: 60px;
+    margin-left: 0;
+
+}
+.cryptonews {
+  width: 250px !important;
+  margin-top: 0;
+  margin-left: 0;
+
+}
+.fc {
+ 
+  margin-top: 40px;
+  margin-left: 0;
+
+}
+
+.fa.fa-clock-o {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    position: relative !important;
+    float: left !important;
+    margin-top: 3px !important;
+    margin-right: 5px !important;
+}
+.timeline .post-date {
+    color: #f3a32a !important;
+    text-align: right !important;
+    padding-right: 20px;
+    font-size: 18px;
+    display: inline-flex!important;
+}
+.timeline .post-meta {
+    text-align: right;
+    padding-top: 10px;
+    display: inline-table;
+    padding-bottom: 5px;
+}
+.timeline .media-body {
+    background-color: #f0f0f0 !important;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.oaki{
+  margin-top: 20px !important;
+}
+
+.logocryptoast{
+  margin-top: 0px !important;
+    padding-bottom: 31px;
+    margin-left: 0 !important;
+}
+.oaki{
+  padding-bottom: 31px;
+}
+
+.logospartenaires{
+  text-align: center;
+}
+.dateev{
+  margin-left: 0 !important;
+}
+.logocryptoast{
+ 
+}
+
+.GrandAngle{
+  margin-top: 20px !important;
+  padding-bottom: 20px;
+}
+.COINACADEMY {
+
+    margin-left: 0;
+ 
+}
+
+}
+
+.dateev{
+  margin-left: 60px;
+}
+.testimonial-img {
+    width: 200px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin: 0 auto;
+}
+.reseaux{
+  display: contents;
+  
+}
+.navbar {
+
+    left: 50px;
+}
+.header .logo img {
+    max-height: 67px;
+    margin-right: 0px;
+    left: 50px;
+    position: absolute;
+}
+.navbar a i, .navbar a:focus i {
+    font-size: 18px;
+    line-height: 0;
+    margin-left: 5px;
+}
+
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+}
+.timeline .media-body.cibm-pause {
+  background-color: #f19b1a !important;
+    color: #fff !important;
+}
+
+.timeline .media-body {
+    background-color: #f0f0f0 !important;
+    padding: 15px;
+    border-radius: 5px;
+}
+.timeline .media-body.cibm-pause .post-title {
+    margin: 0;
+    padding: 0;
+}
+.post-title span{
+  font-size: 18px;
+    font-weight: normal;
+    color: #db8709;
+}
+.post-title h2{
+    font-weight: bold;
+}
+.timeline .post-title {
+    font-size: 18px !important;
+    color: #223557 !important;
+    font-weight: normal !important;
+    border-bottom: solid 0px #d2d2dc !important;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-transform: none;
+    line-height: 1.6em;
+}
+.post-excerpt{
+  color: #223557 !important;
+  font-size: 15px;
+}
+.post-excerpt >p>b{
+  
+    color: #004aad
+
+}
+.post-excerpt >p{
+  
+  color: #333;
+  font-weight: 600;
+
+}
+.post-excerpt > p>span{
+  
+  color: #e59214 !important;
+
+}
+.timeline .media-body.cibm-pause h2 {
+    border: none;
+    color: #fff !important;
+}
+.timeline .post-wrap + .post-wrap {
+    margin-top: 30px;
+}
+.timeline .post-header {
+    margin-bottom: 0px !important;
+}
+.timeline .media-body.cibm-pause .post-body, .timeline .media-body.cibm-pause .post-footer {
+    display: none;
+}
+.timeline .post-date {
+ 
+  color: #f3a32a !important;
+    text-align: right !important;
+    padding-right: 20px;
+    font-size: 18px;
+    
+}
+.timeline .post-meta {
+    text-align: right;
+    padding-top: 10px;
+}
+.tab-content.lv2 .tab-pane {
+    padding: 30px 70px !important;
+}
+
+.tab-content>.active {
+    display: block;
+}
+.col-md-2 {
+    flex: 0 0 auto;
+    width: 9.666667%;
+}
+.col-md-10 {
+    flex: 0 0 auto;
+    width: 87.333333%;
+}
+.logocryptoast{
+  margin-left: 20px;
+  margin-top: 36px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="timetodecrypt.jpg" alt="">
+       
+      
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">EVENEMENT</a></li>
+          <li><a class="nav-link scrollto" href="#about">PROGRAMME </a></li>
+          <li><a class="nav-link scrollto" href="#clients">PARTENAIRES</a></li>
+          <li><a class="nav-link scrollto" href="#pricing">RÉSERVATION</a></li>
+          <li><a class="nav-link scrollto" href="#contact">INFOS</a></li>
+          <div class="reseaux">
+            <a href="https://twitter.com/TimeTodecrypt" target="_blank" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="https://www.linkedin.com/showcase/timetodecrypt/?viewAsMember=true" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.facebook.com/TimeTodecrypt" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/timetodecrypt/" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
+          </div>
+  
+        </ul>
+      
+     
+      </nav><!-- .navbar -->
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+    <!-- SLIDER EXAMPLE -->
+   
+    <section id="hero" class="example ">
+      <article class="content">
+
+
+          <div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="classicslider1" style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+              <!-- START REVOLUTION SLIDER 5.0.7 auto mode -->
+              <div id="rev_slider_4_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.0.7">
+                  <ul>
+         
+                      <!-- SLIDE -->
+                      <li data-index="rs-1" data-transition="zoomin" data-slotamount="7" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-rotate="0" data-saveperformance="off" data-title="Le 29 Mars 2022 à Paris" data-description="">
+                        
+                       
+                        
+                        <!-- MAIN IMAGE -->
+                        <img src="banners/evenement7.jpg" alt="" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 -500" data-offsetend="0 500" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                        <!-- LAYERS -->
+
+                  
+                        
+                        <!-- LAYER NR. 1 -->
+                          <div class="tp-caption Gym-Display tp-resizeme" id="slide-44-layer-3" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-150','-150','-150','-300']" data-fontsize="['50','50','50','30']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-family: Arial; font-weight: 200;">Le 26 Avril 2022 à Paris
+                          </div>
+
+                      
+
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption Gym-Display tp-resizeme" id="slide-44-layer-3" data-x="['center','center','center','center']" data-hoffset="['-200','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-65','-40','-40','-230']" data-fontsize="['80','80','80','60']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-family: Arial;  font-weight: 200;">Evénement 
+                        </div>
+                        <div class="tp-caption tp-resizeme" id="slide-251-layer-2" data-x="['left','left','left','center']" data-hoffset="['650','865','70','0']" data-y="['top','top','top','center']" data-voffset="['188','216','580','-150']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" style="z-index: 6;" data-start="750"><img src="timetodecrypt1.png" alt=""  height="auto" data-ww="['400px','653px','330px','430px']"  data-hh="['auto','auto','auto','auto']" data-no-retina>
+                        </div>
+                        <!-- LAYER NR. 3 -->
+                        <div class="tp-caption Gym-Subline tp-resizeme" id="slide-44-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['20','20','20','-50']" data-fontsize="['20','20','20','30']" data-lineheight="['30','30','30','35']" data-fontweight="['100','100','100','400']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap; font-family: Arial;  font-weight: 200;">Par SigmaFormations
+                        </div>
+
+                        <!-- LAYER NR. 3 -->
+                        <div class="tp-caption Gym-Subline tp-resizeme" id="slide-44-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['71','71','71','-20']" data-fontsize="['30','30','30','15']" data-lineheight="['30','30','30','20']" data-fontweight="['100','100','100','400']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap; font-family: Arial;  font-weight: 200;">A L’ERE DE LA CRYPTOMONNAIE
+                        </div>
+  
+            
+
+                        <!-- LAYER NR. 4 -->
+                        <a href="https://sigmaformations.fr/produit/reservation/" target="_blank"><div class="tp-caption  rev-btn " id="slide-44-layer-6" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','center']" data-voffset="['120','60','20','40']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power2.easeOut;"  data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;" data-start="1500" data-splitin="none" data-splitout="none" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-45","delay":""}]' data-basealign="slide" data-responsive_offset="off" data-responsive="off" style="z-index: 10; white-space: nowrap; background-color: #ffbd59; padding: 10px 10px 10px 10px; line-height: 30px; color: #223557; font-weight: bold;">JE PARTICIPE &nbsp;&nbsp;<i class="fa-icon-arrow-circle-right" style="font-weight: bold;"></i>
+                        </div></a>
+                    </li>
+                      <!-- SLIDE -->
+                      <li data-index="rs-2" data-transition="zoomin" data-slotamount="7" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-rotate="0" data-saveperformance="off" data-title="Love it?" data-description="">
+                     
+                        <!-- MAIN IMAGE -->
+                        <img src="banners/evenement2.jpg" alt="" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 -500" data-offsetend="0 500" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                        <!-- LAYERS -->
+                 <!-- LAYER NR. 1 -->
+                 <div class="tp-caption Gym-Display tp-resizeme" id="slide-44-layer-3" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-150','-150','-150','-300']" data-fontsize="['50','50','50','30']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-family: Arial; font-weight: 200;">Le 26 Avril 2022 à Paris
+                </div>
+
+            
+
+              <!-- LAYER NR. 2 -->
+              <div class="tp-caption Gym-Display tp-resizeme" id="slide-44-layer-3" data-x="['center','center','center','center']" data-hoffset="['-200','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-65','-40','-40','-230']" data-fontsize="['80','80','80','60']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-family: Arial;  font-weight: 200;">Evénement 
+              </div>
+              <div class="tp-caption tp-resizeme" id="slide-251-layer-2" data-x="['left','left','left','center']" data-hoffset="['650','865','70','0']" data-y="['top','top','top','center']" data-voffset="['188','216','580','-150']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" style="z-index: 6;" data-start="750"><img src="timetodecrypt1.png" alt=""  height="auto" data-ww="['400px','653px','330px','430px']"  data-hh="['auto','auto','auto','auto']" data-no-retina>
+              </div>
+              <!-- LAYER NR. 3 -->
+              <div class="tp-caption Gym-Subline tp-resizeme" id="slide-44-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['20','20','20','-50']" data-fontsize="['20','20','20','30']" data-lineheight="['30','30','30','35']" data-fontweight="['100','100','100','400']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap; font-family: Arial;  font-weight: 200;">Par SigmaFormations
+              </div>
+
+              <!-- LAYER NR. 3 -->
+              <div class="tp-caption Gym-Subline tp-resizeme" id="slide-44-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['71','71','71','-20']" data-fontsize="['30','30','30','15']" data-lineheight="['30','30','30','20']" data-fontweight="['100','100','100','400']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap; font-family: Arial;  font-weight: 200;">A L’ERE DE LA CRYPTOMONNAIE
+              </div>
+
+  
+
+              <!-- LAYER NR. 4 -->
+              <a href="https://sigmaformations.fr/produit/reservation/" target="_blank"><div class="tp-caption  rev-btn " id="slide-44-layer-6" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','center']" data-voffset="['120','60','20','40']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power2.easeOut;"  data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;" data-start="1500" data-splitin="none" data-splitout="none" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-45","delay":""}]' data-basealign="slide" data-responsive_offset="off" data-responsive="off" style="z-index: 10; white-space: nowrap; background-color: #ffbd59; padding: 10px 10px 10px 10px; line-height: 30px; color: #223557; font-weight: bold;">JE PARTICIPE &nbsp;&nbsp;<i class="fa-icon-arrow-circle-right" style="font-weight: bold;"></i>
+              </div></a>
+                    </li>
+                      <!-- SLIDE -->
+                      <li data-index="rs-3" data-transition="zoomin" data-slotamount="7" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-rotate="0" data-saveperformance="off" data-title="Love it?" data-description="">
+                      
+                        
+                        <!-- MAIN IMAGE -->
+                        <img src="banners/evenement3.jpg" alt="" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 -500" data-offsetend="0 500" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                        <!-- LAYERS -->
+          <!-- LAYER NR. 1 -->
+          <div class="tp-caption Gym-Display tp-resizeme" id="slide-44-layer-3" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-150','-150','-150','-300']" data-fontsize="['50','50','50','30']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-family: Arial; font-weight: 200;">Le 26 Avril 2022 à Paris
+          </div>
+
+      
+
+        <!-- LAYER NR. 2 -->
+        <div class="tp-caption Gym-Display tp-resizeme" id="slide-44-layer-3" data-x="['center','center','center','center']" data-hoffset="['-200','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-65','-40','-40','-230']" data-fontsize="['80','80','80','60']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-family: Arial;  font-weight: 200;">Evénement 
+        </div>
+        <div class="tp-caption tp-resizeme" id="slide-251-layer-2" data-x="['left','left','left','center']" data-hoffset="['650','865','70','0']" data-y="['top','top','top','center']" data-voffset="['188','216','580','-150']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" style="z-index: 6;" data-start="750"><img src="timetodecrypt1.png" alt=""  height="auto" data-ww="['400px','653px','330px','430px']"  data-hh="['auto','auto','auto','auto']" data-no-retina>
+        </div>
+        <!-- LAYER NR. 3 -->
+        <div class="tp-caption Gym-Subline tp-resizeme" id="slide-44-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['20','20','20','-50']" data-fontsize="['20','20','20','30']" data-lineheight="['30','30','30','35']" data-fontweight="['100','100','100','400']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap; font-family: Arial;  font-weight: 200;">Par SigmaFormations
+        </div>
+
+        <!-- LAYER NR. 3 -->
+        <div class="tp-caption Gym-Subline tp-resizeme" id="slide-44-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['71','71','71','-20']" data-fontsize="['30','30','30','15']" data-lineheight="['30','30','30','20']" data-fontweight="['100','100','100','400']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap; font-family: Arial;  font-weight: 200;">A L’ERE DE LA CRYPTOMONNAIE
+        </div>
+
+
+
+        <!-- LAYER NR. 4 -->
+        <a href="https://sigmaformations.fr/produit/reservation/" target="_blank"><div class="tp-caption  rev-btn " id="slide-44-layer-6" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','center']" data-voffset="['120','60','20','40']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power2.easeOut;"  data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;" data-start="1500" data-splitin="none" data-splitout="none" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-45","delay":""}]' data-basealign="slide" data-responsive_offset="off" data-responsive="off" style="z-index: 10; white-space: nowrap; background-color: #ffbd59; padding: 10px 10px 10px 10px; line-height: 30px; color: #223557; font-weight: bold;">JE PARTICIPE &nbsp;&nbsp;<i class="fa-icon-arrow-circle-right" style="font-weight: bold;"></i>
+        </div></a>
+                    </li>
+                    <li data-index="rs-4" data-transition="zoomin" data-slotamount="7" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-rotate="0" data-saveperformance="off" data-title="Love it?" data-description="">
+                   
+                      
+                      <!-- MAIN IMAGE -->
+                      <img src="banners/evenement4.jpg" alt="" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 -500" data-offsetend="0 500" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                      <!-- LAYERS -->
+                  <!-- LAYER NR. 1 -->
+                  <div class="tp-caption Gym-Display tp-resizeme" id="slide-44-layer-3" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-150','-150','-150','-300']" data-fontsize="['50','50','50','30']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-family: Arial; font-weight: 200;">Le 26 Avril 2022 à Paris
+                  </div>
+
+              
+
+                <!-- LAYER NR. 2 -->
+                <div class="tp-caption Gym-Display tp-resizeme" id="slide-44-layer-3" data-x="['center','center','center','center']" data-hoffset="['-200','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-65','-40','-40','-230']" data-fontsize="['80','80','80','60']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-family: Arial;  font-weight: 200;">Evénement 
+                </div>
+                <div class="tp-caption tp-resizeme" id="slide-251-layer-2" data-x="['left','left','left','center']" data-hoffset="['650','865','70','0']" data-y="['top','top','top','center']" data-voffset="['188','216','580','-150']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" style="z-index: 6;" data-start="750"><img src="timetodecrypt1.png" alt=""  height="auto" data-ww="['400px','653px','330px','430px']"  data-hh="['auto','auto','auto','auto']" data-no-retina>
+                </div>
+                <!-- LAYER NR. 3 -->
+                <div class="tp-caption Gym-Subline tp-resizeme" id="slide-44-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['20','20','20','-50']" data-fontsize="['20','20','20','30']" data-lineheight="['30','30','30','35']" data-fontweight="['100','100','100','400']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap; font-family: Arial;  font-weight: 200;">Par SigmaFormations
+                </div>
+
+                <!-- LAYER NR. 3 -->
+                <div class="tp-caption Gym-Subline tp-resizeme" id="slide-44-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['71','71','71','-20']" data-fontsize="['30','30','30','15']" data-lineheight="['30','30','30','20']" data-fontweight="['100','100','100','400']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap; font-family: Arial;  font-weight: 200;">A L’ERE DE LA CRYPTOMONNAIE
+                </div>
+
+    
+
+                <!-- LAYER NR. 4 -->
+                <a href="https://sigmaformations.fr/produit/reservation/" target="_blank"><div class="tp-caption  rev-btn " id="slide-44-layer-6" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','center']" data-voffset="['120','60','20','40']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power2.easeOut;"  data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;" data-start="1500" data-splitin="none" data-splitout="none" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-45","delay":""}]' data-basealign="slide" data-responsive_offset="off" data-responsive="off" style="z-index: 10; white-space: nowrap; background-color: #ffbd59; padding: 10px 10px 10px 10px; line-height: 30px; color: #223557; font-weight: bold;">JE PARTICIPE &nbsp;&nbsp;<i class="fa-icon-arrow-circle-right" style="font-weight: bold;"></i>
+                </div></a>
+                  </li>
+                      <!-- SLIDE -->
+                      <li data-index="rs-5" data-transition="zoomin" data-slotamount="7" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-rotate="0" data-saveperformance="off" data-title="Love it?" data-description="">
+                     
+                        <!-- MAIN IMAGE -->
+                     
+                         <img src="banners/evenement5.jpg" alt="" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 -500" data-offsetend="0 500" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                               <!-- LAYER NR. 1 -->
+                               <div class="tp-caption Gym-Display tp-resizeme" id="slide-44-layer-3" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-150','-150','-150','-300']" data-fontsize="['50','50','50','30']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-family: Arial; font-weight: 200;">Le 26 Avril 2022 à Paris
+                              </div>
+    
+                          
+    
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption Gym-Display tp-resizeme" id="slide-44-layer-3" data-x="['center','center','center','center']" data-hoffset="['-200','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-65','-40','-40','-230']" data-fontsize="['80','80','80','60']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-family: Arial;  font-weight: 200;">Evénement 
+                            </div>
+                            <div class="tp-caption tp-resizeme" id="slide-251-layer-2" data-x="['left','left','left','center']" data-hoffset="['650','865','70','0']" data-y="['top','top','top','center']" data-voffset="['188','216','580','-150']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" style="z-index: 6;" data-start="750"><img src="timetodecrypt1.png" alt=""  height="auto" data-ww="['400px','653px','330px','430px']"  data-hh="['auto','auto','auto','auto']" data-no-retina>
+                            </div>
+                            <!-- LAYER NR. 3 -->
+                            <div class="tp-caption Gym-Subline tp-resizeme" id="slide-44-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['20','20','20','-50']" data-fontsize="['20','20','20','30']" data-lineheight="['30','30','30','35']" data-fontweight="['100','100','100','400']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap; font-family: Arial;  font-weight: 200;">Par SigmaFormations
+                            </div>
+    
+                            <!-- LAYER NR. 3 -->
+                            <div class="tp-caption Gym-Subline tp-resizeme" id="slide-44-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['71','71','71','-20']" data-fontsize="['30','30','30','15']" data-lineheight="['30','30','30','20']" data-fontweight="['100','100','100','400']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap; font-family: Arial;  font-weight: 200;">A L’ERE DE LA CRYPTOMONNAIE
+                            </div>
+      
+                
+    
+                            <!-- LAYER NR. 4 -->
+                            <a href="https://sigmaformations.fr/produit/reservation/" target="_blank"><div class="tp-caption  rev-btn " id="slide-44-layer-6" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','center']" data-voffset="['120','60','20','40']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power2.easeOut;"  data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;" data-start="1500" data-splitin="none" data-splitout="none" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-45","delay":""}]' data-basealign="slide" data-responsive_offset="off" data-responsive="off" style="z-index: 10; white-space: nowrap; background-color: #ffbd59; padding: 10px 10px 10px 10px; line-height: 30px; color: #223557; font-weight: bold;">JE PARTICIPE &nbsp;&nbsp;<i class="fa-icon-arrow-circle-right" style="font-weight: bold;"></i>
+                            </div></a>
+                      </li>
+
+          <!-- SLIDE -->
+          <li data-index="rs-6" data-transition="zoomin" data-slotamount="7" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-rotate="0" data-saveperformance="off" data-title="Le 29 Mars 2022 à Paris" data-description="">
+         
+            <!-- MAIN IMAGE -->
+            <img src="banners/evenement7.jpg" alt="" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 -500" data-offsetend="0 500" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+            <!-- LAYERS -->
+
+      
+                <!-- LAYER NR. 1 -->
+                <div class="tp-caption Gym-Display tp-resizeme" id="slide-44-layer-3" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-150','-150','-150','-300']" data-fontsize="['50','50','50','30']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-family: Arial; font-weight: 200;">Le 26 Avril 2022 à Paris
+                </div>
+
+            
+
+              <!-- LAYER NR. 2 -->
+              <div class="tp-caption Gym-Display tp-resizeme" id="slide-44-layer-3" data-x="['center','center','center','center']" data-hoffset="['-200','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-65','-40','-40','-230']" data-fontsize="['80','80','80','60']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-family: Arial;  font-weight: 200;">Evénement 
+              </div>
+              <div class="tp-caption tp-resizeme" id="slide-251-layer-2" data-x="['left','left','left','center']" data-hoffset="['650','865','70','0']" data-y="['top','top','top','center']" data-voffset="['188','216','580','-150']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" style="z-index: 6;" data-start="750"><img src="timetodecrypt2.png" alt=""  height="auto" data-ww="['400px','653px','330px','430px']"  data-hh="['auto','auto','auto','auto']" data-no-retina>
+              </div>
+              <!-- LAYER NR. 3 -->
+              <div class="tp-caption Gym-Subline tp-resizeme" id="slide-44-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['20','20','20','-50']" data-fontsize="['20','20','20','30']" data-lineheight="['30','30','30','35']" data-fontweight="['100','100','100','400']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap; font-family: Arial;  font-weight: 200;">Par SigmaFormations
+              </div>
+
+              <!-- LAYER NR. 3 -->
+              <div class="tp-caption Gym-Subline tp-resizeme" id="slide-44-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['71','71','71','-20']" data-fontsize="['30','30','30','15']" data-lineheight="['30','30','30','20']" data-fontweight="['100','100','100','400']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap; font-family: Arial;  font-weight: 200;">A L’ERE DE LA CRYPTOMONNAIE
+              </div>
+
+  
+
+              <!-- LAYER NR. 4 -->
+              <a href="https://sigmaformations.fr/produit/reservation/" target="_blank"><div class="tp-caption  rev-btn " id="slide-44-layer-6" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','center']" data-voffset="['120','60','20','40']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power2.easeOut;"  data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;" data-start="1500" data-splitin="none" data-splitout="none" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-45","delay":""}]' data-basealign="slide" data-responsive_offset="off" data-responsive="off" style="z-index: 10; white-space: nowrap; background-color: #ffbd59; padding: 10px 10px 10px 10px; line-height: 30px; color: #223557; font-weight: bold;">JE PARTICIPE &nbsp;&nbsp;<i class="fa-icon-arrow-circle-right" style="font-weight: bold;"></i>
+              </div></a>
+        </li>
+          <!-- SLIDE -->
+          <li data-index="rs-7" data-transition="zoomin" data-slotamount="7" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-rotate="0" data-saveperformance="off" data-title="Love it?" data-description="">
+         
+            <!-- MAIN IMAGE -->
+            <img src="banners/evenement2.jpg" alt="" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 -500" data-offsetend="0 500" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+            <!-- LAYERS -->
+          <!-- LAYER NR. 1 -->
+          <div class="tp-caption Gym-Display tp-resizeme" id="slide-44-layer-3" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-150','-150','-150','-300']" data-fontsize="['50','50','50','30']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-family: Arial; font-weight: 200;">Le 26 Avril 2022 à Paris
+          </div>
+
+      
+
+        <!-- LAYER NR. 2 -->
+        <div class="tp-caption Gym-Display tp-resizeme" id="slide-44-layer-3" data-x="['center','center','center','center']" data-hoffset="['-200','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-65','-40','-40','-230']" data-fontsize="['80','80','80','60']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-family: Arial;  font-weight: 200;">Evénement 
+        </div>
+        <div class="tp-caption tp-resizeme" id="slide-251-layer-2" data-x="['left','left','left','center']" data-hoffset="['650','865','70','0']" data-y="['top','top','top','center']" data-voffset="['188','216','580','-150']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" style="z-index: 6;" data-start="750"><img src="timetodecrypt2.png" alt=""  height="auto" data-ww="['400px','653px','330px','430px']"  data-hh="['auto','auto','auto','auto']" data-no-retina>
+        </div>
+        <!-- LAYER NR. 3 -->
+        <div class="tp-caption Gym-Subline tp-resizeme" id="slide-44-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['20','20','20','-50']" data-fontsize="['20','20','20','30']" data-lineheight="['30','30','30','35']" data-fontweight="['100','100','100','400']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap; font-family: Arial;  font-weight: 200;">Par SigmaFormations
+        </div>
+
+        <!-- LAYER NR. 3 -->
+        <div class="tp-caption Gym-Subline tp-resizeme" id="slide-44-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['71','71','71','-20']" data-fontsize="['30','30','30','15']" data-lineheight="['30','30','30','20']" data-fontweight="['100','100','100','400']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap; font-family: Arial;  font-weight: 200;">A L’ERE DE LA CRYPTOMONNAIE
+        </div>
+
+
+
+        <!-- LAYER NR. 4 -->
+        <a href="https://sigmaformations.fr/produit/reservation/" target="_blank"><div class="tp-caption  rev-btn " id="slide-44-layer-6" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','center']" data-voffset="['120','60','20','40']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power2.easeOut;"  data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;" data-start="1500" data-splitin="none" data-splitout="none" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-45","delay":""}]' data-basealign="slide" data-responsive_offset="off" data-responsive="off" style="z-index: 10; white-space: nowrap; background-color: #ffbd59; padding: 10px 10px 10px 10px; line-height: 30px; color: #223557; font-weight: bold;">JE PARTICIPE &nbsp;&nbsp;<i class="fa-icon-arrow-circle-right" style="font-weight: bold;"></i>
+        </div></a>
+        </li>
+          <!-- SLIDE -->
+          <li data-index="rs-8" data-transition="zoomin" data-slotamount="7" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-rotate="0" data-saveperformance="off" data-title="Love it?" data-description="">
+          
+          
+            <!-- MAIN IMAGE -->
+            <img src="banners/evenement3.jpg" alt="" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 -500" data-offsetend="0 500" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+            <!-- LAYERS -->
+
+                   <!-- LAYER NR. 1 -->
+                   <div class="tp-caption Gym-Display tp-resizeme" id="slide-44-layer-3" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-150','-150','-150','-300']" data-fontsize="['50','50','50','30']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-family: Arial; font-weight: 200;">Le 26 Avril 2022 à Paris
+                  </div>
+
+              
+
+                <!-- LAYER NR. 2 -->
+                <div class="tp-caption Gym-Display tp-resizeme" id="slide-44-layer-3" data-x="['center','center','center','center']" data-hoffset="['-200','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-65','-40','-40','-230']" data-fontsize="['80','80','80','60']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-family: Arial;  font-weight: 200;">Evénement 
+                </div>
+                <div class="tp-caption tp-resizeme" id="slide-251-layer-2" data-x="['left','left','left','center']" data-hoffset="['650','865','70','0']" data-y="['top','top','top','center']" data-voffset="['188','216','580','-150']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" style="z-index: 6;" data-start="750"><img src="timetodecrypt2.png" alt=""  height="auto" data-ww="['400px','653px','330px','430px']"  data-hh="['auto','auto','auto','auto']" data-no-retina>
+                </div>
+                <!-- LAYER NR. 3 -->
+                <div class="tp-caption Gym-Subline tp-resizeme" id="slide-44-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['20','20','20','-50']" data-fontsize="['20','20','20','30']" data-lineheight="['30','30','30','35']" data-fontweight="['100','100','100','400']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap; font-family: Arial;  font-weight: 200;">Par SigmaFormations
+                </div>
+
+                <!-- LAYER NR. 3 -->
+                <div class="tp-caption Gym-Subline tp-resizeme" id="slide-44-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['71','71','71','-20']" data-fontsize="['30','30','30','15']" data-lineheight="['30','30','30','20']" data-fontweight="['100','100','100','400']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap; font-family: Arial;  font-weight: 200;">A L’ERE DE LA CRYPTOMONNAIE
+                </div>
+
+    
+
+                <!-- LAYER NR. 4 -->
+                <a href="https://sigmaformations.fr/produit/reservation/" target="_blank"><div class="tp-caption  rev-btn " id="slide-44-layer-6" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','center']" data-voffset="['120','60','20','40']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power2.easeOut;"  data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;" data-start="1500" data-splitin="none" data-splitout="none" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-45","delay":""}]' data-basealign="slide" data-responsive_offset="off" data-responsive="off" style="z-index: 10; white-space: nowrap; background-color: #ffbd59; padding: 10px 10px 10px 10px; line-height: 30px; color: #223557; font-weight: bold;">JE PARTICIPE &nbsp;&nbsp;<i class="fa-icon-arrow-circle-right" style="font-weight: bold;"></i>
+                </div></a>
+        </li>
+        <li data-index="rs-9" data-transition="zoomin" data-slotamount="7" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-rotate="0" data-saveperformance="off" data-title="Love it?" data-description="">
+     
+      
+          <!-- MAIN IMAGE -->
+          <img src="banners/evenement4.jpg" alt="" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 -500" data-offsetend="0 500" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+          <!-- LAYERS -->
+         <!-- LAYER NR. 1 -->
+         <div class="tp-caption Gym-Display tp-resizeme" id="slide-44-layer-3" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-150','-150','-150','-300']" data-fontsize="['50','50','50','30']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-family: Arial; font-weight: 200;">Le 26 Avril 2022 à Paris
+        </div>
+
+    
+
+      <!-- LAYER NR. 2 -->
+      <div class="tp-caption Gym-Display tp-resizeme" id="slide-44-layer-3" data-x="['center','center','center','center']" data-hoffset="['-200','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-65','-40','-40','-230']" data-fontsize="['80','80','80','60']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-family: Arial;  font-weight: 200;">Evénement 
+      </div>
+      <div class="tp-caption tp-resizeme" id="slide-251-layer-2" data-x="['left','left','left','center']" data-hoffset="['650','865','70','0']" data-y="['top','top','top','center']" data-voffset="['188','216','580','-150']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" style="z-index: 6;" data-start="750"><img src="timetodecrypt2.png" alt=""  height="auto" data-ww="['400px','653px','330px','430px']"  data-hh="['auto','auto','auto','auto']" data-no-retina>
+      </div>
+      <!-- LAYER NR. 3 -->
+      <div class="tp-caption Gym-Subline tp-resizeme" id="slide-44-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['20','20','20','-50']" data-fontsize="['20','20','20','30']" data-lineheight="['30','30','30','35']" data-fontweight="['100','100','100','400']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap; font-family: Arial;  font-weight: 200;">Par SigmaFormations
+      </div>
+
+      <!-- LAYER NR. 3 -->
+      <div class="tp-caption Gym-Subline tp-resizeme" id="slide-44-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['71','71','71','-20']" data-fontsize="['30','30','30','15']" data-lineheight="['30','30','30','20']" data-fontweight="['100','100','100','400']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap; font-family: Arial;  font-weight: 200;">A L’ERE DE LA CRYPTOMONNAIE
+      </div>
+
+
+
+      <!-- LAYER NR. 4 -->
+      <a href="https://sigmaformations.fr/produit/reservation/" target="_blank"><div class="tp-caption  rev-btn " id="slide-44-layer-6" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','center']" data-voffset="['120','60','20','40']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power2.easeOut;"  data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;" data-start="1500" data-splitin="none" data-splitout="none" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-45","delay":""}]' data-basealign="slide" data-responsive_offset="off" data-responsive="off" style="z-index: 10; white-space: nowrap; background-color: #ffbd59; padding: 10px 10px 10px 10px; line-height: 30px; color: #223557; font-weight: bold;">JE PARTICIPE &nbsp;&nbsp;<i class="fa-icon-arrow-circle-right" style="font-weight: bold;"></i>
+      </div></a>
+      </li>
+          <!-- SLIDE -->
+          <li data-index="rs-10" data-transition="zoomin" data-slotamount="7" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-rotate="0" data-saveperformance="off" data-title="Love it?" data-description="">
+     
+            
+            <!-- MAIN IMAGE -->
+              <img src="banners/evenement5.jpg" alt="" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 -500" data-offsetend="0 500" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                  <!-- LAYER NR. 1 -->
+                  <div class="tp-caption Gym-Display tp-resizeme" id="slide-44-layer-3" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-150','-150','-150','-300']" data-fontsize="['50','50','50','30']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-family: Arial; font-weight: 200;">Le 26 Avril 2022 à Paris
+                  </div>
+
+              
+
+                <!-- LAYER NR. 2 -->
+                <div class="tp-caption Gym-Display tp-resizeme" id="slide-44-layer-3" data-x="['center','center','center','center']" data-hoffset="['-200','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-65','-40','-40','-230']" data-fontsize="['80','80','80','60']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-family: Arial;  font-weight: 200;">Evénement 
+                </div>
+                <div class="tp-caption tp-resizeme" id="slide-251-layer-2" data-x="['left','left','left','center']" data-hoffset="['650','865','70','0']" data-y="['top','top','top','center']" data-voffset="['188','216','580','-150']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" style="z-index: 6;" data-start="750"><img src="timetodecrypt2.png" alt=""  height="auto" data-ww="['400px','653px','330px','430px']"  data-hh="['auto','auto','auto','auto']" data-no-retina>
+                </div>
+                <!-- LAYER NR. 3 -->
+                <div class="tp-caption Gym-Subline tp-resizeme" id="slide-44-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['20','20','20','-50']" data-fontsize="['20','20','20','30']" data-lineheight="['30','30','30','35']" data-fontweight="['100','100','100','400']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap; font-family: Arial;  font-weight: 200;">Par SigmaFormations
+                </div>
+
+                <!-- LAYER NR. 3 -->
+                <div class="tp-caption Gym-Subline tp-resizeme" id="slide-44-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['71','71','71','-20']" data-fontsize="['30','30','30','15']" data-lineheight="['30','30','30','20']" data-fontweight="['100','100','100','400']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap; font-family: Arial;  font-weight: 200;">A L’ERE DE LA CRYPTOMONNAIE
+                </div>
+
+    
+
+                <!-- LAYER NR. 4 -->
+                <a href="https://sigmaformations.fr/produit/reservation/" target="_blank"><div class="tp-caption  rev-btn " id="slide-44-layer-6" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','center']" data-voffset="['120','60','20','40']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power2.easeOut;"  data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;" data-start="1500" data-splitin="none" data-splitout="none" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-45","delay":""}]' data-basealign="slide" data-responsive_offset="off" data-responsive="off" style="z-index: 10; white-space: nowrap; background-color: #ffbd59; padding: 10px 10px 10px 10px; line-height: 30px; color: #223557; font-weight: bold;">JE PARTICIPE &nbsp;&nbsp;<i class="fa-icon-arrow-circle-right" style="font-weight: bold;"></i>
+                </div></a>
+          </li>
+
+
+
+                    <!-- SLIDE -->
+                    <li data-index="rs-11" data-transition="zoomin" data-slotamount="7" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-rotate="0" data-saveperformance="off" data-title="Le 29 Mars 2022 à Paris" data-description="">
+               
+                      
+                      <!-- MAIN IMAGE -->
+                      <img src="banners/evenement7.jpg" alt="" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 -500" data-offsetend="0 500" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                      <!-- LAYERS -->
+          
+                
+                      
+                              <!-- LAYER NR. 1 -->
+                              <div class="tp-caption Gym-Display tp-resizeme" id="slide-44-layer-3" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-150','-150','-150','-300']" data-fontsize="['50','50','50','30']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-family: Arial; font-weight: 200;">Le 26 Avril 2022 à Paris
+                              </div>
+    
+                          
+    
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption Gym-Display tp-resizeme" id="slide-44-layer-3" data-x="['center','center','center','center']" data-hoffset="['-200','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-65','-40','-40','-230']" data-fontsize="['80','80','80','60']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-family: Arial;  font-weight: 200;">Evénement 
+                            </div>
+                            <div class="tp-caption tp-resizeme" id="slide-251-layer-2" data-x="['left','left','left','center']" data-hoffset="['650','865','70','0']" data-y="['top','top','top','center']" data-voffset="['40','216','580','-50']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" style="z-index: 6;" data-start="750"><img src="timetodecrypt3.png" alt=""  height="auto" data-ww="['400px','653px','330px','430px']"  data-hh="['auto','auto','auto','auto']" data-no-retina>
+                            </div>
+                            <!-- LAYER NR. 3 -->
+                            <div class="tp-caption Gym-Subline tp-resizeme" id="slide-44-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['20','20','20','-50']" data-fontsize="['20','20','20','30']" data-lineheight="['30','30','30','35']" data-fontweight="['100','100','100','400']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap; font-family: Arial;  font-weight: 200;">Par SigmaFormations
+                            </div>
+    
+                            <!-- LAYER NR. 3 -->
+                            <div class="tp-caption Gym-Subline tp-resizeme" id="slide-44-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['71','71','71','-20']" data-fontsize="['30','30','30','15']" data-lineheight="['30','30','30','20']" data-fontweight="['100','100','100','400']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap; font-family: Arial;  font-weight: 200;">A L’ERE DE LA CRYPTOMONNAIE
+                            </div>
+      
+                
+    
+                            <!-- LAYER NR. 4 -->
+                            <a href="https://sigmaformations.fr/produit/reservation/" target="_blank"><div class="tp-caption  rev-btn " id="slide-44-layer-6" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','center']" data-voffset="['120','60','20','40']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power2.easeOut;"  data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;" data-start="1500" data-splitin="none" data-splitout="none" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-45","delay":""}]' data-basealign="slide" data-responsive_offset="off" data-responsive="off" style="z-index: 10; white-space: nowrap; background-color: #ffbd59; padding: 10px 10px 10px 10px; line-height: 30px; color: #223557; font-weight: bold;">JE PARTICIPE &nbsp;&nbsp;<i class="fa-icon-arrow-circle-right" style="font-weight: bold;"></i>
+                            </div></a>
+                  </li>
+                    <!-- SLIDE -->
+                    <li data-index="rs-12" data-transition="zoomin" data-slotamount="7" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-rotate="0" data-saveperformance="off" data-title="Love it?" data-description="">
+                     
+                     
+                      <!-- MAIN IMAGE -->
+                      <img src="banners/evenement2.jpg" alt="" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 -500" data-offsetend="0 500" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                      <!-- LAYERS -->
+                 <!-- LAYER NR. 1 -->
+                 <div class="tp-caption Gym-Display tp-resizeme" id="slide-44-layer-3" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-150','-150','-150','-300']" data-fontsize="['50','50','50','30']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-family: Arial; font-weight: 200;">Le 26 Avril 2022 à Paris
+                </div>
+
+            
+
+              <!-- LAYER NR. 2 -->
+              <div class="tp-caption Gym-Display tp-resizeme" id="slide-44-layer-3" data-x="['center','center','center','center']" data-hoffset="['-200','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-65','-40','-40','-230']" data-fontsize="['80','80','80','60']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-family: Arial;  font-weight: 200;">Evénement 
+              </div>
+              <div class="tp-caption tp-resizeme" id="slide-251-layer-2" data-x="['left','left','left','center']" data-hoffset="['650','865','70','0']" data-y="['top','top','top','center']" data-voffset="['40','216','580','-150']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" style="z-index: 6;" data-start="750"><img src="timetodecrypt3.png" alt=""  height="auto" data-ww="['400px','653px','330px','430px']"  data-hh="['auto','auto','auto','auto']" data-no-retina>
+              </div>
+              <!-- LAYER NR. 3 -->
+              <div class="tp-caption Gym-Subline tp-resizeme" id="slide-44-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['20','20','20','-50']" data-fontsize="['20','20','20','30']" data-lineheight="['30','30','30','35']" data-fontweight="['100','100','100','400']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap; font-family: Arial;  font-weight: 200;">Par SigmaFormations
+              </div>
+
+              <!-- LAYER NR. 3 -->
+              <div class="tp-caption Gym-Subline tp-resizeme" id="slide-44-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['71','71','71','-20']" data-fontsize="['30','30','30','15']" data-lineheight="['30','30','30','20']" data-fontweight="['100','100','100','400']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap; font-family: Arial;  font-weight: 200;">A L’ERE DE LA CRYPTOMONNAIE
+              </div>
+
+  
+
+              <!-- LAYER NR. 4 -->
+              <a href="https://sigmaformations.fr/produit/reservation/" target="_blank"><div class="tp-caption  rev-btn " id="slide-44-layer-6" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','center']" data-voffset="['120','60','20','40']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power2.easeOut;"  data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;" data-start="1500" data-splitin="none" data-splitout="none" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-45","delay":""}]' data-basealign="slide" data-responsive_offset="off" data-responsive="off" style="z-index: 10; white-space: nowrap; background-color: #ffbd59; padding: 10px 10px 10px 10px; line-height: 30px; color: #223557; font-weight: bold;">JE PARTICIPE &nbsp;&nbsp;<i class="fa-icon-arrow-circle-right" style="font-weight: bold;"></i>
+              </div></a>
+                  </li>
+                    <!-- SLIDE -->
+                    <li data-index="rs-13" data-transition="zoomin" data-slotamount="7" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-rotate="0" data-saveperformance="off" data-title="Love it?" data-description="">
+                   
+                     <!-- MAIN IMAGE -->
+                      <img src="banners/evenement3.jpg" alt="" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 -500" data-offsetend="0 500" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                      <!-- LAYERS -->
+          
+                                <!-- LAYER NR. 1 -->
+                                <div class="tp-caption Gym-Display tp-resizeme" id="slide-44-layer-3" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-150','-150','-150','-300']" data-fontsize="['50','50','50','30']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-family: Arial; font-weight: 200;">Le 26 Avril 2022 à Paris
+                                </div>
+      
+                            
+      
+                              <!-- LAYER NR. 2 -->
+                              <div class="tp-caption Gym-Display tp-resizeme" id="slide-44-layer-3" data-x="['center','center','center','center']" data-hoffset="['-200','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-65','-40','-40','-230']" data-fontsize="['80','80','80','60']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-family: Arial;  font-weight: 200;">Evénement 
+                              </div>
+                              <div class="tp-caption tp-resizeme" id="slide-251-layer-2" data-x="['left','left','left','center']" data-hoffset="['650','865','70','0']" data-y="['top','top','top','center']" data-voffset="['40','216','580','-150']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" style="z-index: 6;" data-start="750"><img src="timetodecrypt3.png" alt=""  height="auto" data-ww="['400px','653px','330px','430px']"  data-hh="['auto','auto','auto','auto']" data-no-retina>
+                              </div>
+                              <!-- LAYER NR. 3 -->
+                              <div class="tp-caption Gym-Subline tp-resizeme" id="slide-44-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['20','20','20','-50']" data-fontsize="['20','20','20','30']" data-lineheight="['30','30','30','35']" data-fontweight="['100','100','100','400']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap; font-family: Arial;  font-weight: 200;">Par SigmaFormations
+                              </div>
+      
+                              <!-- LAYER NR. 3 -->
+                              <div class="tp-caption Gym-Subline tp-resizeme" id="slide-44-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['71','71','71','-20']" data-fontsize="['30','30','30','15']" data-lineheight="['30','30','30','20']" data-fontweight="['100','100','100','400']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap; font-family: Arial;  font-weight: 200;">A L’ERE DE LA CRYPTOMONNAIE
+                              </div>
+        
+                  
+      
+                              <!-- LAYER NR. 4 -->
+                              <a href="https://sigmaformations.fr/produit/reservation/" target="_blank"><div class="tp-caption  rev-btn " id="slide-44-layer-6" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','center']" data-voffset="['120','60','20','40']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power2.easeOut;"  data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;" data-start="1500" data-splitin="none" data-splitout="none" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-45","delay":""}]' data-basealign="slide" data-responsive_offset="off" data-responsive="off" style="z-index: 10; white-space: nowrap; background-color: #ffbd59; padding: 10px 10px 10px 10px; line-height: 30px; color: #223557; font-weight: bold;">JE PARTICIPE &nbsp;&nbsp;<i class="fa-icon-arrow-circle-right" style="font-weight: bold;"></i>
+                              </div></a>
+                  </li>
+                  <li data-index="rs-14" data-transition="zoomin" data-slotamount="7" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-rotate="0" data-saveperformance="off" data-title="Love it?" data-description="">
+             
+                  
+                    <!-- MAIN IMAGE -->
+                    <img src="banners/evenement4.jpg" alt="" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 -500" data-offsetend="0 500" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                    <!-- LAYERS -->
+                <!-- LAYER NR. 1 -->
+                <div class="tp-caption Gym-Display tp-resizeme" id="slide-44-layer-3" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-150','-150','-150','-300']" data-fontsize="['50','50','50','30']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-family: Arial; font-weight: 200;">Le 26 Avril 2022 à Paris
+                </div>
+
+            
+
+              <!-- LAYER NR. 2 -->
+              <div class="tp-caption Gym-Display tp-resizeme" id="slide-44-layer-3" data-x="['center','center','center','center']" data-hoffset="['-200','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-65','-40','-40','-230']" data-fontsize="['80','80','80','60']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-family: Arial;  font-weight: 200;">Evénement 
+              </div>
+              <div class="tp-caption tp-resizeme" id="slide-251-layer-2" data-x="['left','left','left','center']" data-hoffset="['650','865','70','0']" data-y="['top','top','top','center']" data-voffset="['40','216','580','-150']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" style="z-index: 6;" data-start="750"><img src="timetodecrypt3.png" alt=""  height="auto" data-ww="['400px','653px','330px','430px']"  data-hh="['auto','auto','auto','auto']" data-no-retina>
+              </div>
+              <!-- LAYER NR. 3 -->
+              <div class="tp-caption Gym-Subline tp-resizeme" id="slide-44-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['20','20','20','-50']" data-fontsize="['20','20','20','30']" data-lineheight="['30','30','30','35']" data-fontweight="['100','100','100','400']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap; font-family: Arial;  font-weight: 200;">Par SigmaFormations
+              </div>
+
+              <!-- LAYER NR. 3 -->
+              <div class="tp-caption Gym-Subline tp-resizeme" id="slide-44-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['71','71','71','-20']" data-fontsize="['30','30','30','15']" data-lineheight="['30','30','30','20']" data-fontweight="['100','100','100','400']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap; font-family: Arial;  font-weight: 200;">A L’ERE DE LA CRYPTOMONNAIE
+              </div>
+
+  
+
+              <!-- LAYER NR. 4 -->
+              <a href="https://sigmaformations.fr/produit/reservation/" target="_blank"><div class="tp-caption  rev-btn " id="slide-44-layer-6" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','center']" data-voffset="['120','60','20','40']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power2.easeOut;"  data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;" data-start="1500" data-splitin="none" data-splitout="none" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-45","delay":""}]' data-basealign="slide" data-responsive_offset="off" data-responsive="off" style="z-index: 10; white-space: nowrap; background-color: #ffbd59; padding: 10px 10px 10px 10px; line-height: 30px; color: #223557; font-weight: bold;">JE PARTICIPE &nbsp;&nbsp;<i class="fa-icon-arrow-circle-right" style="font-weight: bold;"></i>
+              </div></a>
+                </li>
+                    <!-- SLIDE -->
+                    <li data-index="rs-15" data-transition="zoomin" data-slotamount="7" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-rotate="0" data-saveperformance="off" data-title="Love it?" data-description="">
+                 
+               
+                      <!-- MAIN IMAGE -->
+                        <img src="banners/evenement5.jpg" alt="" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 -500" data-offsetend="0 500" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                         <!-- LAYER NR. 1 -->
+                         <div class="tp-caption Gym-Display tp-resizeme" id="slide-44-layer-3" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-150','-150','-150','-300']" data-fontsize="['50','50','50','30']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-family: Arial; font-weight: 200;">Le 26 Avril 2022 à Paris
+                        </div>
+
+                    
+
+                      <!-- LAYER NR. 2 -->
+                      <div class="tp-caption Gym-Display tp-resizeme" id="slide-44-layer-3" data-x="['center','center','center','center']" data-hoffset="['-200','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-65','-40','-40','-230']" data-fontsize="['80','80','80','60']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-family: Arial;  font-weight: 200;">Evénement 
+                      </div>
+                      <div class="tp-caption tp-resizeme" id="slide-251-layer-2" data-x="['left','left','left','center']" data-hoffset="['650','865','70','0']" data-y="['top','top','top','center']" data-voffset="['40','216','580','-150']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" style="z-index: 6;" data-start="750"><img src="timetodecrypt3.png" alt=""  height="auto" data-ww="['400px','653px','330px','430px']"  data-hh="['auto','auto','auto','auto']" data-no-retina>
+                      </div>
+                      <!-- LAYER NR. 3 -->
+                      <div class="tp-caption Gym-Subline tp-resizeme" id="slide-44-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['20','20','20','-50']" data-fontsize="['20','20','20','30']" data-lineheight="['30','30','30','35']" data-fontweight="['100','100','100','400']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap; font-family: Arial;  font-weight: 200;">Par SigmaFormations
+                      </div>
+
+                      <!-- LAYER NR. 3 -->
+                      <div class="tp-caption Gym-Subline tp-resizeme" id="slide-44-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['71','71','71','-20']" data-fontsize="['30','30','30','15']" data-lineheight="['30','30','30','20']" data-fontweight="['100','100','100','400']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap; font-family: Arial;  font-weight: 200;">A L’ERE DE LA CRYPTOMONNAIE
+                      </div>
+
+          
+
+                      <!-- LAYER NR. 4 -->
+                      <a href="https://sigmaformations.fr/produit/reservation/" target="_blank"><div class="tp-caption  rev-btn " id="slide-44-layer-6" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','center']" data-voffset="['120','60','20','40']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power2.easeOut;"  data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;" data-start="1500" data-splitin="none" data-splitout="none" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-45","delay":""}]' data-basealign="slide" data-responsive_offset="off" data-responsive="off" style="z-index: 10; white-space: nowrap; background-color: #ffbd59; padding: 10px 10px 10px 10px; line-height: 30px; color: #223557; font-weight: bold;">JE PARTICIPE &nbsp;&nbsp;<i class="fa-icon-arrow-circle-right" style="font-weight: bold;"></i>
+                      </div></a>
+                    </li>
+
+                  </ul>
+                  <div class="tp-static-layers"></div>
+                  <div class="tp-bannertimer" style="height: 7px; background-color: rgba(255, 255, 255, 0.25);"></div>
+              </div>
+          
+          
+            </div>
+          <!-- END REVOLUTION SLIDER -->
+
+      </article>
+     
+  </section>
+  <div class="row " id="menu">
+    <div class="col-md-2">
+
+
+        <i class="fas fa-calendar-check fa-3x"> </i>
+        <p style="color:#ffbd59;">Date</p>
+        <p>26/04/2022</p>
+       
+       
+    
+    </div>
+    <div class="col-md-3 dateev">
+      <i class="fas fa-icon-map-marker fa-3x"> </i>
+      <i class="fas fa-icon-circle" style="color: #223557;margin-top: 9px;margin-left: 10.2px;font-size: 13px;;"></i>
+      <p style="margin-left: 65px; color:#ffbd59;">Lieu</p>
+      <p style="margin-left: 65px;">Paris, Le Grand Rex </p>
+  
+  </div>
+  <div class="col-md-3">
+    <i class="fas fa-icon-users fa-3x" style="margin-left: 0;"> </i>
+    <p style="margin-left: 90px;color:#ffbd59;">Participants</p>
+    <p style="margin-left:90px">200 places</p>
+
+</div>
+<div class="col-md-4">
+  <i class="fas fa-icon-microphone fa-3x"> </i>
+  <p style="margin-left: 65px;color:#ffbd59;">Intervenants</p>
+  <p style="margin-left: 65px;" class="intervenants">Experts en blockchain et cryptoactifs  </p>
+
+</div>
+
+  </div>
+  <video id="idvideo" controls loop autoplay preload muted style="width: 100%;" >
+    <source src="videofinal.mp4" type="video/mp4">
+
+  </video>
+
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section style="padding-top: 0; margin-top: -6px;">
+      <div class="row gx-0 block-titre">
+        <div class="col-md-5 b1" >
+          <h2>
+            Entrez dans la nouvelle ère des cryptomonnaies, le mardi 26 avril 2022 à Paris #TimeTodecrypt’
+          </h2>
+          <div class="bg-white" style="margin-top: 25px;position: relative;float: left;">
+          <p class="p1">               
+            La 1ère édition de la conférence TimeTodecrypt’ qui réunira des intervenants prestigieux en cryptoactifs, se positionne comme un <span style="font-weight: bold;">rendez-vous incontournable</span> pour l’ensemble de la crypto-sphère.
+            <span style="font-weight: bold;">De 8h50 à 18h</span>, des experts et analystes en blockchain et cryptomonnaies aborderont de nombreuses thématiques pour répondre à toutes vos interrogations.            
+         
+<br><br>
+Profiter des conseils et des regards avisés de professionnels et faites de belles rencontres avec des passionnés de crypto au cours du <span style="font-weight: bold;">cocktail déjeunatoire.</span><br><br>
+Vous l’aurez compris, cette conférence/formation est accessible et ouverte à toutes les personnes actives, mais également aux curieux et futurs actifs.
+
+           </p>
+          
+          </div>
+        </div>
+        <div class="col-md-5 b2" >
+          <h2> 
+            Parmi les problématiques<br> qui seront débattues :<br><br>
+          </h2>
+          <div class="bg-white gauche" style="margin-top: -5px;">
+        
+           <p class="p2">- Introduction des cryptoactifs<br>-	Panorama du secteur<br>- Investissement<br>- Sécurité et technique <br>- Risques et mitigation<br> -	Enjeux géopolitiques, politiques et économiques </p>
+                 
+    
+           <br><br>
+         
+          </div>
+        </div>
+
+      </div>
+      <br><br><br><br>
+      <div class="row gx-0 block-titre top">
+        <div class="col-md-12 col-lg-12 " style="background: #223557; text-align: center;" >
+          <h2 style="padding-top: 25px;padding-bottom: 25px; margin-left: 0;">
+            INTERVENANTS        
+              </h2>
+        
+        </div>
+    
+        </div>
+        <div class="container" data-aos="fade-up" style="padding-left: 60px;">
+        
+
+    <!-- ======= Testimonials Section =======-->
+    <section id="testimonials" class="testimonials">
+
+      <div class="container" data-aos="fade-up">
+
+          <div class="row">
+
+            <div class="col-lg-6 col-md-6 " style="text-align: center;">
+
+              <img src="assets/img/team/5.jpg" class="testimonial-img" alt="">
+              <div class="member-info">
+                <h4 style="font-weight: bold;">Alexandre STACHTCHENKO</h4>
+                <span>Cofondateur,<b style="color:#004AAD;"> BLOCKCHAIN PARTNER </b></span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 " style="text-align: center;">
+
+              <img src="assets/img/team/2.jpg" class="testimonial-img" alt="">
+              <div class="member-info">
+                <h4 style="font-weight: bold;">Faustine FLEURET</h4>
+                <span>Présidente & Directrice générale, <b style="color:#004AAD;"> ADAN </b></span>
+              </div>
+            </div>
+
+          </div>
+          <br><br>
+             <div class="row">
+
+            <div class="col-lg-6 col-md-6 " style="text-align: center;">
+
+              <img src="assets/img/team/3.jpg" class="testimonial-img" alt="">
+              <div class="member-info">
+                <h4 style="font-weight: bold;">Owen SIMONIN <br> Hasheur </h4>
+                <span>CEO, <b style="color:#004AAD;"> JUST MINING </b></span>
+              </div>
+            </div>
+            
+            <div class="col-lg-6 col-md-6 " style="text-align: center;">
+
+              <img src="assets/img/team/4.jpg" class="testimonial-img" alt="">
+              <div class="member-info">
+                <h4 style="font-weight: bold;">Stéphane REVERRE</h4>
+                <span>CEO & Cofondateur, <b style="color:#004AAD;"> SUNZULAB </b></span>
+              </div>
+            </div>
+
+          </div>
+          <br><br>
+          <div class="row">
+
+            <div class="col-lg-6 col-md-6 " style="text-align: center;">
+
+              <img src="assets/img/team/7.jpg" class="testimonial-img" alt="">
+              <div class="member-info">
+                <h4 style="font-weight: bold;">Yves CHOUEIFATY </h4>
+                <span>Président, <b style="color:#004AAD;"> TOBAM </b></span>
+              </div>
+            </div>
+            
+            <div class="col-lg-6 col-md-6 " style="text-align: center;">
+
+              <img src="assets/img/team/6.jpg" class="testimonial-img" alt="">
+              <div class="member-info">
+                <h4 style="font-weight: bold;">Pierre PERSON </h4>
+                <span>Député de Paris, <b style="color:#004AAD;"> ASSEMBLÉE NATIONALE </b></span>
+              </div>
+            </div>
+
+          </div>
+          <br><br>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 " style="text-align: center;">
+           
+              <img src="assets/img/team/11.jpg" class="testimonial-img" alt="">
+              <div class="member-info">
+                <h4 style="font-weight: bold;">Sarah COMPANI </h4>
+                <span> Avocate, <b style="color:#004AAD;">ALEPH AVOCAT</b></span>
+              </div>
+            </div>
+           
+
+            <div class="col-lg-6 col-md-6 " style="text-align: center;">
+
+              <img src="assets/img/team/8.jpg" class="testimonial-img" alt="">
+              <div class="member-info">
+                <h4 style="font-weight: bold;">Emile DUBIÉ</h4>
+                <span>Cofondateur, <b style="color:#004AAD;"> XDEFI WALLET </b></span>
+              </div>
+            </div>
+           </div>
+           <br><br>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 " style="text-align: center;">
+             <img src="assets/img/team/15.jpg" class="testimonial-img" alt="">
+              <div class="member-info">
+                <h4 style="font-weight: bold;">Artem SINYAKIN</h4>
+                <span>Co-Fondateur, <b style="color:#004AAD;"> OAK INVEST   </b></span>
+              </div>
+        
+            </div>
+  
+            <div class="col-lg-6 col-md-6 " style="text-align: center;">
+
+              <img src="assets/img/team/12.jpg" class="testimonial-img" alt="">
+              <div class="member-info">
+                <h4 style="font-weight: bold;">Richard DÉTENTE</h4>
+                <span>Co-fondateur, <b style="color:#004AAD;">  GRAND ANGLE CRYPTO      </b></span>
+              </div>
+            </div>
+          </div>
+        
+          <br><br>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 " style="text-align: center;">
+             <img src="assets/img/team/16.jpg" class="testimonial-img" alt="">
+              <div class="member-info">
+                <h4 style="font-weight: bold;">Louis Alexandre DE FROISSARD</h4>
+                <span>CEO & Fondateur, <b style="color:#004AAD;"> MONTAIGNE CONSEIL & PATRIMOINE </b></span>
+              </div>
+        
+            </div>
+  
+            <div class="col-lg-6 col-md-6 " style="text-align: center;">
+
+              <img src="assets/img/team/17.jpg" class="testimonial-img" alt="">
+              <div class="member-info">
+                <h4 style="font-weight: bold;">Saimi BARRAGAN</h4>
+                <span>Founder & CEO, <b style="color:#004AAD;">  STARTMINING     </b></span>
+              </div>
+            </div>
+          </div>
+
+                    <br><br>
+          <div class="row">
+            <div class="col-lg-6 col-md-6  " style="text-align: center;">
+                 <img src="assets/img/team/20.jpg" class="testimonial-img" alt="">
+              <div class="member-info">
+                <h4 style="font-weight: bold;">Vincent BOY</h4>
+                <span>Analyste marchés, <b style="color:#004AAD;">  IG  </b></span>
+              </div>
+        
+            </div>
+  
+            <div class="col-lg-6 col-md-6 " style="text-align: center;">
+
+              <img src="assets/img/team/19.jpg" class="testimonial-img" alt="">
+              <div class="member-info">
+                <h4 style="font-weight: bold;">Pierre NOIZAT</h4>
+                <span>Founder & CEO, <b style="color:#004AAD;"> PAYMIUM  </b></span>
+              </div>
+            </div>
+
+
+          </div>
+          <br><br>
+         <div class="row">
+            <div class="col-lg-6 col-md-6  " style="text-align: center;">
+                 <img src="assets/img/team/PP.jpg" class="testimonial-img" alt="">
+              <div class="member-info">
+                <h4 style="font-weight: bold;">Sébastien GOUSPILLOU</h4>
+                <span> CEO BigBlock Green Services,  <b style="color:#004AAD;">  BBGS  </b></span>
+              </div>
+        
+            </div>
+  
+  
+
+            
+          </div>
+
+      </div>
+
+    </section><!-- End Testimonials Section -->
+
+
+        </div>
+        <div class="row gx-0 block-titre top">
+          <div class="col-md-12 col-lg-12 " style="background: #223557; text-align: center;" >
+            <h2 style="padding-top: 25px;padding-bottom: 25px; margin-left: 0;">
+              MODÉRATEURS     
+                </h2>
+          
+          </div>
+      
+          </div>
+          <div class="container" data-aos="fade-up" style="padding-left: 60px;">
+          
+        <section id="testimonials2" class="testimonials2">
+
+          <div class="container" data-aos="fade-up">
+    
+    
+              <div class="row">
+                <div class="col-lg-6 col-md-6 " style="text-align: center;">
+    
+                  <img src="assets/img/team/13.jpg" class="testimonial-img" alt="">
+                  <div class="member-info">
+                    <h4 style="font-weight: bold;">  Grégory RAYMOND</h4>
+                    <span>Co-fondateur, <b style="color:#004AAD;"> THE BIG WHALE </b></span>
+                  </div>
+                </div>
+    
+                <div class="col-lg-6 col-md-6 " style="text-align: center;">
+    
+                  <img src="assets/img/team/10.jpg" class="testimonial-img" alt="">
+                  <div class="member-info">
+                    <h4 style="font-weight: bold;"> Valentin DEMÉ</h4>
+                    <span>Journaliste, <b style="color:#004AAD;"> CRYPTOAST </b></span>
+                  </div>
+                </div>
+               </div>
+              <br><br>
+              <div class="row"> 
+                <div class="col-lg-6 col-md-6 " style="text-align: center;">
+                  <img src="assets/img/team/18.jpg" class="testimonial-img" alt="">
+                  <div class="member-info">
+                    <h4 style="font-weight: bold;"> Raphaël BLOCH</h4>
+                    <span>Co-fondateur, <b style="color:#004AAD;">  THE BIG WHALE  </b></span>
+                  </div>
+              
+                </div>
+
+                <div class="col-lg-6 col-md-6 " style="text-align: center;">
+    
+                  <img src="assets/img/team/14.jpg" class="testimonial-img" alt="">
+                  <div class="member-info">
+                    <h4 style="font-weight: bold;">  Laurent BAINIER</h4>
+                    <span>Rédacteur en chef, <b style="color:#004AAD;">  20 MINUTES  </b></span>
+                  </div>
+                </div>
+                
+      
+              </div>
+             
+          
+    
+          </div>
+    
+        </section><!-- End Testimonials Section -->
+    </div>
+          <div id="about" class="row gx-0 block-titre top">
+            <div class="col-md-12 col-lg-12 " style="background: #223557; text-align: center;" >
+              <h2 style="padding-top: 25px;padding-bottom: 25px; margin-left: 0;">
+                Programme       
+                  </h2>
+            
+            </div>
+        
+            </div>
+          <div class="container" data-aos="fade-up" style="padding-left: 60px;">
+            <br> <br>
+ 
+       
+     <div id="tab-lv2-cibm" class="timeline row tab-pane  in active">
+    <article class="post-wrap">
+        <div class="media">
+            <div class="post-meta col-xs-3 col-md-2"><span class="post-date"><i class="fa fa-clock-o"></i> 8H50</span></div>
+            <div class="media-body col-xs-9 col-md-10 cibm-pause">
+                <div class="post-header">
+                    <h2 class="post-title">ALLOCUTION D’OUVERTURE</h2>
+                </div>
+                <div class="post-body">
+                    <div class="post-excerpt">
+
+                    </div>
+                </div>
+                <div class="post-footer">
+                    <span class="post-readmore">&nbsp;&nbsp;</span>
+                </div>
+            </div>
+        </div>
+    </article>
+    <article class="post-wrap">
+        <div class="media">
+            <div class="post-meta col-xs-3 col-md-2"><span class="post-date"><i class="fa fa-clock-o"></i> 9H00</span></div>
+            <div class="media-body col-xs-9 col-md-10 ">
+                <div class="post-header">
+                    <h2 class="post-title"> <span> (Keynote 30’):</span> Introduction à la blockchain et aux crypto actifs.</h2>
+                </div>
+                <div class="post-body">
+                    <div class="post-excerpt">
+                      <br>
+                        <p>Alexandre Stachtchenko, <span>Blockchain Partner</span></p>
+                    
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </article>
+    <article class="post-wrap">
+        <div class="media">
+            <div class="post-meta col-xs-3 col-md-2"><span class="post-date"><i class="fa fa-clock-o"></i> 9h30</span></div>
+            <div class="media-body col-xs-9 col-md-10 ">
+                <div class="post-header">
+                    <h2 class="post-title"><span>(Table-ronde 40’ + 10’ Q&R) :</span>  Quels sont les risques et les mitigations de ces nouvelles
+                      technologies ? … et les opportunités ? </h2>
+                </div>
+                <div class="post-body">
+                  <div class="post-excerpt">
+                    <br>
+                    <p>Stephane Reverre, <span>Sun Zu Lab</span></p>
+                    <p>Alexandre Stachtchenko, <span>Blockchain Partner</span></p>
+                    <p><span style="font-weight: 500;color:#223557 !important;"> Modéré par :  </span> Laurent Bainier, <span>  20 Minutes</span></p>
+
+
+                  </div>
+               
+            </div>
+        </div>
+    </article>
+    <article class="post-wrap">
+        <div class="media">
+            <div class="post-meta col-xs-3 col-md-2"><span class="post-date"><i class="fa fa-clock-o"></i> 10H20</span></div>
+            <div class="media-body col-xs-9 col-md-10 ">
+                <div class="post-header">
+                    <h2 class="post-title"><span>(Keynote 30’ + 10’ Q&R) : </span> La Finance 3.0</h2>
+                </div>
+                <div class="post-body">
+                    <div class="post-excerpt">
+                      <br>
+                      <p>Richard Détente, <span>Grand Angle Crypto</span></p>
+                      <p>Louis Alexandre De Froissard, <span> Montaigne Conseil et 
+                        Patrimoine</span></p>
+                      <p><span style="font-weight: 500;color:#223557 !important;"> Modéré par :  </span> Richard Détente et Alexandre D, <span> The Big Whale  </span></p>
+
+                    
+                    
+                  
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+    </article>
+    <article class="post-wrap">
+      <div class="media">
+          <div class="post-meta col-xs-3 col-md-2"><span class="post-date"><i class="fa fa-clock-o"></i> 11H00</span></div>
+          <div class="media-body col-xs-9 col-md-10 cibm-pause">
+              <div class="post-header">
+                  <h2 class="post-title">Pause-café</h2>
+              </div>
+              <div class="post-body">
+                  <div class="post-excerpt">
+
+                  </div>
+              </div>
+              <div class="post-footer">
+                  <span class="post-readmore">&nbsp;&nbsp;</span>
+              </div>
+          </div>
+      </div>
+  </article>
+    <article class="post-wrap">
+        <div class="media">
+            <div class="post-meta col-xs-3 col-md-2"><span class="post-date"><i class="fa fa-clock-o"></i> 11H20</span></div>
+            <div class="media-body col-xs-9 col-md-10 ">
+                <div class="post-header">
+                    <h2 class="post-title"><span> (Keynote 15’)  </span> Mining : Technique et accessibilité</h2>
+                </div>
+                <div class="post-body">
+                    <div class="post-excerpt">
+                      <br>
+                      <p>Saimi Barragan, <span>Startmining</span></p>
+                      
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+    </article>
+     <article class="post-wrap">
+        <div class="media">
+            <div class="post-meta col-xs-3 col-md-2"><span class="post-date"><i class="fa fa-clock-o"></i> 11H35</span></div>
+            <div class="media-body col-xs-9 col-md-10 ">
+                <div class="post-header">
+                    <h2 class="post-title"><span> (Keynote 15’)  </span> Ecologie, entre idées reçues et réalité</h2>
+                </div>
+                <div class="post-body">
+                    <div class="post-excerpt">
+                      <br>
+                      <p>Pierre Noizat, <span>Paymium</span></p>
+                      
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+    </article>
+    <article class="post-wrap">
+      <div class="media">
+          <div class="post-meta col-xs-3 col-md-2"><span class="post-date"><i class="fa fa-clock-o"></i> 11H50</span></div>
+          <div class="media-body col-xs-9 col-md-10 ">
+              <div class="post-header">
+                  <h2 class="post-title"><span> (Table-ronde 30’ + 10’ Q&R): </span> Ecologie, entre idées reçues et réalité                  </h2>
+              </div>
+              <div class="post-body">
+                  <div class="post-excerpt">
+                    <br>
+                    <p>Saimi Barragan, <span>Startmining</span></p>
+                     <p>Pierre Noizat, <span>Paymium</span></p>
+                    <p> Sébastien Gouspillou,  <span>BigBlock GreenServices (BBGS)</span></p>
+                    <p><span style="font-weight: 500;color:#223557 !important;"> Modéré par :  </span>  Raphaël Bloch, <span> The Big Whale  </span></p>
+
+                  </div>
+              </div>
+            
+          </div>
+      </div>
+  </article>
+    <article class="post-wrap">
+      <div class="media">
+          <div class="post-meta col-xs-3 col-md-2"><span class="post-date"><i class="fa fa-clock-o"></i> 12H30</span></div>
+          <div class="media-body col-xs-9 col-md-10 cibm-pause">
+              <div class="post-header">
+                  <h2 class="post-title">Pause déjeuner</h2>
+              </div>
+              <div class="post-body">
+                  <div class="post-excerpt">
+
+                  </div>
+              </div>
+              <div class="post-footer">
+                  <span class="post-readmore">&nbsp;&nbsp;</span>
+              </div>
+          </div>
+      </div>
+  </article>
+ 
+    <article class="post-wrap">
+        <div class="media">
+            <div class="post-meta col-xs-3 col-md-2"><span class="post-date"><i class="fa fa-clock-o"></i> 14H00</span></div>
+            <div class="media-body col-xs-9 col-md-10 ">
+                <div class="post-header">
+                    <h2 class="post-title"><span>(keynote 20/30’ + 10’ Q&R) :</span>  Pourquoi et comment investir dans les cryptomonnaies ?</h2>
+                </div>
+                <div class="post-body">
+                    <div class="post-excerpt">
+                      <br>
+                      <p>Owen Simonin, <span>Just Mining</span></p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </article>
+    <article class="post-wrap">
+        <div class="media">
+            <div class="post-meta col-xs-3 col-md-2"><span class="post-date"><i class="fa fa-clock-o"></i> 14H40</span></div>
+            <div class="media-body col-xs-9 col-md-10 ">
+                <div class="post-header">
+                    <h2 class="post-title"><span>(Keynote 20/30’ + 10’ Q&R) : </span> Comment naviguer en toute sécurité sur le Web
+3.0 ?</h2>
+                </div>
+                <div class="post-body">
+                    <div class="post-excerpt">
+                      <br>
+                        <p>Emile Dubié, <span> XDefiWallet</span></p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </article>
+    <article class="post-wrap">
+        <div class="media">
+            <div class="post-meta col-xs-3 col-md-2"><span class="post-date"><i class="fa fa-clock-o"></i> 15H10</span></div>
+            <div class="media-body col-xs-9 col-md-10 ">
+                <div class="post-header">
+                    <h2 class="post-title"><span>  (Table-ronde 30’ + 20’ Q&R) :</span> Macro-économie, zoom sur notre économie actuelle VS crypto</h2>
+                </div>
+                <div class="post-body">
+                    <div class="post-excerpt">
+                      <br>
+                      <p>Yves Choueifaty, <span>Tobam</span></p>
+                      <p>Richard Détente, <span>Grand Angle Crypto</span></p>
+                      <p>Vincent Boy, <span>IG</span></p>
+                     
+                      <p><span style="font-weight: 500;color:#223557 !important;"> Modéré par :  </span> Gregory Raymond, <span> Journaliste Crypto  </span></p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </article>
+    <article class="post-wrap">
+      <div class="media">
+          <div class="post-meta col-xs-3 col-md-2"><span class="post-date"><i class="fa fa-clock-o"></i> 16H00</span></div>
+          <div class="media-body col-xs-9 col-md-10 cibm-pause">
+              <div class="post-header">
+                  <h2 class="post-title">Pause</h2>
+              </div>
+              <div class="post-body">
+                  <div class="post-excerpt">
+
+                  </div>
+              </div>
+              <div class="post-footer">
+                  <span class="post-readmore">&nbsp;&nbsp;</span>
+              </div>
+          </div>
+      </div>
+  </article>
+
+    <article class="post-wrap">
+        <div class="media">
+            <div class="post-meta col-xs-3 col-md-2"><span class="post-date"><i class="fa fa-clock-o"></i> 16H20</span></div>
+            <div class="media-body col-xs-9 col-md-10 ">
+                <div class="post-header">
+                    <h2 class="post-title"><span>(Table-ronde 30’ + 10’ Q&R):</span> Réglementation et régulation </h2>
+                </div>
+                <div class="post-body">
+                    <div class="post-excerpt">
+                      <br>
+                      <p>Faustine Fleuret, <span>ADAN</span></p>
+                      <p>Sarah Compani, <span>Aleph Avocat</span></p>
+                      <p>Pierre Person, <span> Député de Paris</span></p>
+                      <p><span style="font-weight: 500;color:#223557 !important;"> Modéré par :  </span> Valentin Demé, <span> Cryptoast</span></p>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </article>
+ 
+    <article class="post-wrap">
+      <div class="media">
+          <div class="post-meta col-xs-3 col-md-2"><span class="post-date"><i class="fa fa-clock-o"></i> 17H00</span></div>
+          <div class="media-body col-xs-9 col-md-10 ">
+              <div class="post-header">
+                  <h2 class="post-title"><span> (Keynote 20/30’ + 10’ Q&R) :</span>  Actualité, conséquence Ukraine/Russie + projection sur le futur</h2>
+              </div>
+              <div class="post-body">
+                  <div class="post-excerpt">
+                    <br>
+                    <p>Artem Sinyakin, <span> Co-fondateur Oak Invest</span></p>
+                  </div>
+              </div>
+          
+          </div>
+      </div>
+  </article>
+  
+    <article class="post-wrap">
+        <div class="media">
+          <div class="post-meta col-xs-3 col-md-2"><span class="post-date"><i class="fa fa-clock-o"></i> 17H30</span></div>
+          <div class="media-body col-xs-9 col-md-10 cibm-pause">
+                <div class="post-header">
+                    <h2 class="post-title">Conclusion</h2>
+                </div>
+                <div class="post-body">
+                    <div class="post-excerpt">
+
+                    </div>
+                </div>
+                <div class="post-footer">
+                    <span class="post-readmore">&nbsp;&nbsp;</span>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+
+     
+          </div>
+  
+          <br><br>
+
+      </div>
+
+    </section><!-- End About Section -->
+
+
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+        
+          <p>Partenaires </p>
+          
+        </header>
+
+        <div class="row logospartenaires">
+          <div class="col-lg-3 col-md-3 ">
+           <a href="https://www.just-mining.com/ " target="_blank"><img src="justmining2.png"  alt="" class="time"></a>
+          </div>
+          <div class="col-lg-3 col-md-3 ">
+          <a href="https://adan.eu/ " target="_blank"><img src="ADAN.png"  alt="" class="adan"></a>
+          </div>
+          <div class="col-lg-3 col-md-3 ">
+         <a href="https://fr.cryptonews.com/ " target="_blank"><img src="cryptonews.png"  alt="" class="cryptonews"></a>
+          </div>
+          <div class="col-lg-3 col-md-3 ">
+            <a href="https://ifde-learning.fr/ " target="_blank"><img src="logoifde2.png"  alt="" class="ifde"></a>
+          </div>
+          <div class="col-lg-3 col-md-3 ">
+            <a href="https://francecrypto.fr/" target="_blank"><img src="logofc2.png"  alt="" class="fc" ></a>
+          </div>
+          <div class="col-lg-3 col-md-3 ">
+            <a href="https://www.instagram.com/oak.invest/?hl=en" target="_blank"><img src="OAKINVEST2.png" class="oaki"  alt="" style="
+              width: 231px;
+              margin-top: -42px;
+              margin-left: 0;
+          "></a>
+          </div>
+             <div class="col-lg-3 col-md-3 ">
+              <a href="https://cryptoast.fr/" target="_blank"><img src="logocryptoast.webp" width="240"  alt="" class="logocryptoast" ></a>
+            </div>
+            <div class="col-lg-3 col-md-3 ">
+              <a href="https://www.youtube.com/channel/UCT5FYQ_io06t7aY8rShgzvA" target="_blank"><img src="GrandAngle.png" width="240"  alt="" class="GrandAngle" ></a>
+            </div>
+            <div class="col-lg-3 col-md-3 ">
+              <a href="" target="_blank"><img src="newlogo.png"  alt="" class="" style="margin-left: 30px;
+                width: 150px;" ></a>
+            </div>
+            <div class="col-lg-3 col-md-3 ">
+              <a href="https://www.xdefi.io/" target="_blank"><img src="XDEFI.png"  alt="" class="XDEFI" ></a>
+            </div>
+            <div class="col-lg-3 col-md-3 ">
+              <a href="https://coinacademy.fr/" target="_blank"><img src="COINACADEMY.png"  alt="" class="COINACADEMY" ></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- End Clients Section -->
+
+
+
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+       
+          <p>SAVE THE DATE !</p>
+        </header>
+
+        <div class="row gy-4" data-aos="fade-left">
+
+
+     
+        
+          <div class="col-lg-4 col-md-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="box">
+              <h3 style="color: #ff901c;">Tarif Pass conférence </h3>
+              <div class="price">399 <sup> € TTC</sup><span></span></div>
+         
+              <a href="https://sigmaformations.fr/produit/reservation/" target="_blank" class="btn-buy">
+                je réserve ma place ! </a>
+            </div><br>
+                 <div class="box">
+              <h3 style="color: #ff901c;">Tarif - 23ans </h3>
+              <p>*demande de pièce d'identité</p>
+              <div class="price">159 <sup> € TTC</sup><span></span></div>
+              
+         
+              <a href="https://sigmaformations.fr/produit/tarif-23ans/" target="_blank" class="btn-buy">
+                je réserve ma place ! </a>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="box">
+              <h3 style="color: #ff901c;">Tarifs pass conférence <br><br> + livre numérique blockchain et cryptoactifs via MonCompteFormation </h3>
+              <img src="assets/img/mon-compte-formation.svg" style=" margin-top: -20px;">
+              <div class="price">599 <sup> € TTC</sup><span></span></div>
+              
+         
+              <a href="https://www.moncompteformation.gouv.fr/espace-prive/html/#/formation/recherche/88498287700034_006/88498287700034_001?contexteFormation=ACTIVITE_PROFESSIONNELLE" target="_blank" class="btn-buy">
+                je réserve ma place ! </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="box">
+              <h3 style="color: #ff901c;">Tarifs pass conférence <br><br> + livre numérique blockchain et cryptoactifs via MonCompteFormation <br><br> + Formation Cryptomonnaie  </h3>
+              <img src="assets/img/mon-compte-formation.svg" style=" margin-top: -20px;">
+              <div class="price">1 499 <sup> € TTC</sup><span></span></div>
+         
+         
+              <a href="https://www.moncompteformation.gouv.fr/espace-prive/html/#/formation/recherche/88498287700034_006/88498287700034_002?contexteFormation=ACTIVITE_PROFESSIONNELLE" target="_blank" class="btn-buy">
+                je réserve ma place ! </a>
+            </div>
+          </div>
+
+        </div>
+       
+      </div>
+
+    </section><!-- End Pricing Section -->
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Contact</h2>
+          <p>Contactez Nous</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+
+            <div class="row gy-4">
+              <h2 style="color: #012970;">Se rendre à l’événement :	</h2>
+              <b>Adresse :</b>
+              <p style="margin: 0;">1 Boulevard Poissonnière, 75002 Paris</p>
+              <div class="col-md-3">
+                <img src="m.png">
+              </div>
+              <div class="col-md-4">
+                <img src="3.png">
+                <img src="4.png">
+                <img src="9.png">
+              </div>
+              <b>En métro </b>
+              <p style="margin: 0;">à 1 min à pied du Métro Bonne Nouvelle,
+                Ligne 8 et Ligne 9 
+                </p>
+                <p  style="margin: 0;">à 5 min à pied du Métro Sentier,
+                  Ligne 3 
+                  </p>
+                  <p  style="margin: 0;">à 10 min à pied du Métro Réaumur-Sébastopol</p>
+                  <b>Parking </b>
+                  <p  style="margin: 0;">Parking Rex Atriumti </p>
+                  <p  style="margin: 0;">rue du faubourg poissonière </p>
+                  <p  style="margin: 0;">75009 Paris </p>
+              <div class="col-md-6">
+            
+                <div class="info-box">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Appelez-Nous</h3>
+                  <p>+33 6 73 06 42 28</p>
+                  <p>+33 6 15 85 81 91</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Notre Email</h3>
+                  <p>elodie.figueres@sigmaformations.fr</p>
+                </div>
+              </div>
+           
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <h2 style="color: #012970;">Plan d’accès :</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10497.410431893144!2d2.3477768!3d48.8705543!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaf97ab633669d0a2!2sLe%20Grand%20Rex!5e0!3m2!1sfr!2sdz!4v1642924785666!5m2!1sfr!2sdz" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+ 
+        </div>
+
+      </div>
+
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+   
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>TimeTodecrypt'</span></strong> Tous droits réservés<br>
+        
+      </div>
+      <div class="credits">
+   
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- JS -->
+
+
+  <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+
+  <script type="text/javascript" src="js/mfn.menu.js"></script>
+  <script type="text/javascript" src="js/jquery.plugins.js"></script>
+  <script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+  <script type="text/javascript" src="js/animations/animations.js"></script>
+  <script type="text/javascript" src="js/email.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+
+  <script type="text/javascript" src="plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+  <script type="text/javascript" src="plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+  <script type="text/javascript" src="plugins/rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
+  <script type="text/javascript" src="plugins/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
+  <script type="text/javascript" src="plugins/rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
+  <script type="text/javascript" src="plugins/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
+  <script type="text/javascript" src="plugins/rs-plugin/js/extensions/revolution.extension.kenburn.min.js"></script>
+  <script type="text/javascript" src="plugins/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
+  <script type="text/javascript" src="plugins/rs-plugin/js/extensions/revolution.extension.migration.min.js"></script>
+  <script type="text/javascript" src="plugins/rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script>
+  <script type="text/javascript" src="plugins/rs-plugin/js/extensions/revolution.extension.carousel.min.js"></script>
+
+  <script type="text/javascript">
+      var tpj = jQuery;
+      var revapi4;
+      tpj(document).ready(function() {
+          if (tpj("#rev_slider_4_1").revolution == undefined) {
+              revslider_showDoubleJqueryError("#rev_slider_4_1");
+          } else {
+              revapi4 = tpj("#rev_slider_4_1").show().revolution({
+                  sliderType: "standard",
+
+                  sliderLayout: "fullscreen",
+                  dottedOverlay: "none",
+                  delay: 9000,
+                  navigation: {
+                      keyboardNavigation: "off",
+                      keyboard_direction: "horizontal",
+                      mouseScrollNavigation: "off",
+                      onHoverStop: "off",
+                      touch: {
+                          touchenabled: "on",
+                          swipe_threshold: 75,
+                          swipe_min_touches: 1,
+                          swipe_direction: "horizontal",
+                          drag_block_vertical: false
+                      },
+                      arrows: {
+                          style: "zeus",
+                          enable: true,
+                          hide_onmobile: true,
+                          hide_under: 600,
+                          hide_onleave: true,
+                          hide_delay: 200,
+                          hide_delay_mobile: 1200,
+                          tmp: '<div class="tp-title-wrap"> 	<div class="tp-arr-imgholder"></div> </div>',
+                          left: {
+                              h_align: "left",
+                              v_align: "center",
+                              h_offset: 30,
+                              v_offset: 0
+                          },
+                          right: {
+                              h_align: "right",
+                              v_align: "center",
+                              h_offset: 30,
+                              v_offset: 0
+                          }
+                      },
+                      bullets: {
+                          enable: false,
+                          hide_onmobile: true,
+                          hide_under: 600,
+                          style: "metis",
+                          hide_onleave: true,
+                          hide_delay: 200,
+                          hide_delay_mobile: 1200,
+                          direction: "horizontal",
+                          h_align: "center",
+                          v_align: "bottom",
+                          h_offset: 0,
+                          v_offset: 30,
+                          space: 5,
+                          tmp: '<span class="tp-bullet-img-wrap"> <span class="tp-bullet-image"></span></span><span class="tp-bullet-title">{{title}}</span>'
+                      }
+                  },
+                  viewPort: {
+                      enable: true,
+                      outof: "pause",
+                      visible_area: "80%"
+                  },
+                  responsiveLevels: [1240, 1024, 778, 480],
+                  gridwidth: [1240, 1024, 778, 480],
+                  gridheight: [600, 600, 500, 400],
+                  lazyType: "all",
+                  parallax: {
+                      type: "mouse",
+                      origo: "slidercenter",
+                      speed: 2000,
+                      levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50],
+                  },
+                  shadow: 0,
+                  spinner: "on",
+                  stopLoop: "off",
+                  stopAfterLoops: -1,
+                  stopAtSlide: -1,
+                  shuffle: "off",
+                  autoHeight: "off",
+                  hideThumbsOnMobile: "off",
+                  hideSliderAtLimit: 0,
+                  hideCaptionAtLimit: 0,
+                  hideAllCaptionAtLilmit: 0,
+                  debugMode: false,
+                  fallbacks: {
+                      simplifyAll: "off",
+                      nextSlideOnWindowFocus: "off",
+                      disableFocusListener: false,
+                  }
+              });
+          }
+      }); /*ready*/
+  </script>
+<script>
+
+
+
+
+function fctPlay(sIdVideo){
+  var oVideo = document.getElementById(sIdVideo);
+  var playPromise = oVideo.play();
+
+  if (playPromise !== undefined) {
+    playPromise.then(function() {
+      //  
+    }).catch(function(error) {
+      var oDetect = document.getElementById("detect"+sIdVideo);
+      if(oDetect){
+        oDetect.innerHTML = "(on la détecté en javascript que la vidéo ne c'est pas lancée)";
+      }
+    });
+  }
+}//fct 
+
+document.addEventListener('DOMContentLoaded',function(){
+  //fctAutoplay('idvideo');
+
+
+  fctPlay('idvideoB')
+  fctPlay('idvideoB2')
+});
+
+
+  </script>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/61d6e0f2b84f7301d329a83c/1fonltdem';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+
+
+ 
+  jQuery('#play').click();
+
+  </script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-220110155-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+ 
+
+  gtag('config', 'UA-220110155-1');
+</script>
+  <!--End of Tawk.to Script-->
+
+</body>
+
 </html>
